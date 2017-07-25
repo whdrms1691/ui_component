@@ -3,54 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <title>탭 메뉴</title>
+  <link rel="stylesheet" href="../css/style_tab_menu.css" />
+  <script src="../js/lib/jquery-3.2.1.min.js"></script>
+  <script src="../js/tab_menu.js"></script>
 </head>
 <body>
 
-<header class="header">
-  <nav class="gnb">
-    <ul class="gnb-list">
 
-      <li><a href="#" class="gnb-depth1-link">탭메뉴</a>
-        <ul class="gnb-depth2">
-          <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">jQuery</a></li>
-          <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">CSS</a></li>
-        </ul>
-      </li>
 
-      <li><a href="#" class="gnb-depth1-link">아코디언메뉴</a>
-        <ul class="gnb-depth2">
-          <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">jQuery</a></li>
-          <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">CSS</a></li>
-        </ul>
-      </li>
-
-      <li><a href="#" class="gnb-depth1-link">상단메뉴</a>
-        <ul class="gnb-depth2">
-          <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">jQuery</a></li>
-          <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">CSS</a></li>
-        </ul>
-      </li>
-
-      <li><a href="#" class="gnb-depth1-link">이미지슬라이딩</a>
-        <ul class="gnb-depth2">
-          <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">jQuery</a></li>
-          <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">CSS</a></li>
-        </ul>
-      </li>
-
-    </ul>
-  </nav>
-</header>
+<h1 class="cate-heading">프론트 엔드 기본 언어</h1>
 
 <section>
 
-  <h1>프론트 엔드 기본 언어</h1>
-
   <div class="tab-wrap">
 
-    <h2 class="tab-heading">HTML</h2>
+    <h2 class="tab-heading html">
+      <a href="#" class="on">HTML</a>
+    </h2>
 
-    <div class="tab-content">
+    <div class="tab-content on">
 
       <h2>HTML</h2>
       <hr />
@@ -740,7 +711,9 @@
 
     </div>
 
-    <h2 class="tab-heading">CSS</h2>
+    <h2 class="tab-heading css">
+      <a href="#">CSS</a>
+    </h2>
 
     <div class="tab-content">
 
@@ -1032,7 +1005,9 @@
 
     </div>
 
-    <h2 class="tab-heading">Javascript</h2>
+    <h2 class="tab-heading js">
+      <a href="#">Javascript</a>
+    </h2>
 
     <div class="tab-content">
 
@@ -1130,7 +1105,14 @@
 
 </section>
 
-<footer></footer>
+<footer>
+
+
+
+</footer>
+
+
 
 </body>
+
 </html>
